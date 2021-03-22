@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+    color: white !important;
+}
+
+html, body, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: inherit;
+    height: inherit;
+    background: radial-gradient(circle, rgba(128,128,128,1) 30%, rgba(66,66,66,1) 100%);
+}
+
+#messages {
+    /* Message History */
+    border: solid medium black;
+    background: rgba(50, 46, 53, 0.5);
+    height: 90%;
+    width: 50%;
+}
+
+#textArea {
+    width: fit-content;
+}
+
+#messages, #textArea {
+    margin: auto;
+}
+
+#headerM {
+    text-align: 
+    center; 
+    width: 100%;
+    border: solid thin linear-gradient(135deg, rgba(99,99,99,0.9) 0%, rgba(99,99,99,1) 50%, rgba(99,99,99,0.9) 100%);
+}
